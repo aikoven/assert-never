@@ -20,11 +20,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
  *   }
  *
  *   // TS will error if there are other types in the union
+ *   // Will throw an Error when called at runtime. Use `assertNever(arg, true)`
+ *   // instead to fail silently.
  *   return assertNever(arg);
  * }
  * </code></pre>
  */
-function assertNever(value) {
+function assertNever(value, noThrow) {
+    if (noThrow) {
+        return value;
+    }
     throw new Error("Unhandled discriminated union member: " + JSON.stringify(value));
 }
 exports.default = assertNever;
