@@ -28,6 +28,8 @@ function doSomething(arg: Union) {
   }
   
   // TS will error if there are other types in the union
+  // Will throw an Error when called at runtime. Use `assertNever(arg, true)`
+  // instead to fail silently.
   return assertNever(arg);
 }
 ```
