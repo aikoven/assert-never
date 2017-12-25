@@ -10,7 +10,9 @@
   },
   "keywords": [
     "typescript",
-    "discriminated union"
+    "discriminated unions",
+    "assert",
+    "never"
   ],
   "repository": "aikoven/assert-never",
   "author": "Daniel Lytkin <dan.lytkin@gmail.com>",
