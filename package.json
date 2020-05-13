@@ -4,6 +4,11 @@
   "description": "Helper function for exhaustive checks of discriminated unions in TypeScript",
   "main": "index.js",
   "typings": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.ts",
+    "index.d.ts"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build"
