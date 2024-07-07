@@ -12,3 +12,6 @@ npm-*.log
 # build
 index.d.ts
 index.js
+
+# Jest
+coverage
