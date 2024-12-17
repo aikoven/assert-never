@@ -1,6 +1,6 @@
 {
   "name": "assert-never",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Helper function for exhaustive checks of discriminated unions in TypeScript",
   "main": "index.js",
   "typings": "index.d.ts",
